@@ -51,4 +51,4 @@ looks like when we break them up into varying window/frame sizes. First we
 focus on the speech signal. We break the speech frame sizes of 40, 60,
 169 and window sizes of 160 and 240.
 
-[Click here for full report.](/public/assets/files/20150120_trejo_devin_ca1.pdf)
+[Click here for full report.](/assets/files/20150120_trejo_devin_ca1.pdf)

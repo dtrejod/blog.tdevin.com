@@ -33,4 +33,4 @@ trying to send our larger message in 50 byte blocks we receive server
 re-transmission behavior that is expected when using TCP as a transfer
 protocol, as discuss in the previous lab.
 
-[Click here for full report.](/public/assets/files/20160222_trejo_devin_002.pdf)
+[Click here for full report.](/assets/files/20160222_trejo_devin_002.pdf)

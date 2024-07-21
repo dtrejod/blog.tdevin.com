@@ -37,7 +37,7 @@ for our [AutoEEG project](http://www.isip.piconepress.com/projects/auto_eeg/).
 I leaded the effort in trying to setup, optimize and maintain the cluster.
 In this blog I lay out the research, testing, and results of my quest.
 
-[Click here for a poster that summarizes the project.](/public/assets/files/20151211_trejo_EEposter_v08.pdf)
+[Click here for a poster that summarizes the project.](/assets/files/20151211_trejo_EEposter_v08.pdf)
 
 # Research
 

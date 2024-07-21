@@ -61,4 +61,4 @@ output to a file called `hw05.out`. The second output argument is the
 output to `/dev/null` which will ensure our script runs successfully.
 The `&` at the end of the command allows the script to run in the background.
 
-[Click here for full report.](/public/assets/files/20150928_trejo_devin_hw05.pdf)
+[Click here for full report.](/assets/files/20150928_trejo_devin_hw05.pdf)

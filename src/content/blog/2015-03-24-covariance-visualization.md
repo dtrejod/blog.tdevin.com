@@ -50,4 +50,4 @@ reaches your expected output.Therefore we generate 100,000 vectors and sum
 all the results so to guarantee our output produces accurate results.
 Below we plot our overall histogram:
 
-[Click here for full report.](/public/assets/files/20150324_trejo_devin_ca7.pdf)
+[Click here for full report.](/assets/files/20150324_trejo_devin_ca7.pdf)

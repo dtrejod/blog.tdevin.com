@@ -38,4 +38,4 @@ commands from any directory on our machines.
 4. For EEG reports that contain the word _‘spike’_ produce a histogram of
    bi-grams.
 
-[Click here for full report.](/public/assets/files/20150831_trejo_devin_hw1.pdf)
+[Click here for full report.](/assets/files/20150831_trejo_devin_hw1.pdf)

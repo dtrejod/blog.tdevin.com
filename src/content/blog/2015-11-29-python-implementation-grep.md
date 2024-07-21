@@ -102,4 +102,4 @@ module to find a histogram of the words inside our resulting dataframe.
 What is interesting is whether the programming-python or bash result is faster.
 We will find out.
 
-[Click here for full report.](/public/assets/files/20151129_trejo_devin_hw08.pdf)
+[Click here for full report.](/assets/files/20151129_trejo_devin_hw08.pdf)

@@ -29,4 +29,4 @@ can control the speed, direction, and step count directly. Using switching,
 sum, difference, memory blocks we can construct our open loop control system
 that controls the inputs to our stepper motor.
 
-[Click here for full report.](/public/assets/files/20150210_trejo_devin_lab02.pdf)
+[Click here for full report.](/assets/files/20150210_trejo_devin_lab02.pdf)

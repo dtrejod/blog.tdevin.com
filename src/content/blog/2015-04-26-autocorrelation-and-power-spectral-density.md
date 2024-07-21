@@ -58,4 +58,4 @@ the autocorrelation of our signal we will note that the signal is never
 correlated to itself since it is not periodic. Our power spectral density thus
 is flat like our Gaussian white noise signal.
 
-[Click here for full report.](/public/assets/files/20150426_trejo_devin_ca11.pdf)
+[Click here for full report.](/assets/files/20150426_trejo_devin_ca11.pdf)
