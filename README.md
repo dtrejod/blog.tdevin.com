@@ -1,6 +1,6 @@
 # blog.tdevin.com
 
-Source for blog.tdevin.com. Built using [Astro](https://astro.build) and the
+Source for https://blog.tdevin.com. Built using [Astro](https://astro.build) and the
 [Astro Paper](https://github.com/satnaing/astro-paper) blog theme.
 
 ## Running Locally
