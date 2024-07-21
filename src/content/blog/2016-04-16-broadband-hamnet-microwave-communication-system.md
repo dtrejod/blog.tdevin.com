@@ -22,8 +22,8 @@ pubDatetime: 2016-04-16 00:00:00
 # Project Links
 
 - [Full Design Document](/assets/files/20160416_sd27_designdoc_final_v05.pdf)
-- [Project Website](https://sites.google.com/a/temple.edu/broadband-mcomm/)
 - [Project Poster](/assets/files/20160416_fdr_review_poster_final.pdf)
+- [TOIChat Source Code](https://github.com/Toi-Group/TOIChat)
 - [Project Video 1 - Command Line Interface Demonstration](https://www.youtube.com/watch?v=_-q7M_saQdkA)
 - [Project Video 2 - Graphic Interface](https://www.youtube.com/watch?v=DbUwcBYxRT)
 
