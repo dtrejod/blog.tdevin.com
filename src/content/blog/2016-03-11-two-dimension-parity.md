@@ -28,4 +28,4 @@ in size to a 35 byte string that contains the parity information. We
 demonstrate that our two-dimensional decoder is capable of detecting and
 correcting one bit errors from the client received message.
 
-[Click here for full report.](/public/assets/files/20160311_trejo_devin_003.pdf)
+[Click here for full report.](/assets/files/20160311_trejo_devin_003.pdf)

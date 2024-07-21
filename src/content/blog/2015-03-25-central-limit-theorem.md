@@ -48,4 +48,4 @@ possible range of data has increased from [-1,1] to [-10, 10]. Next we will
 increase the number of random variables to one hundred and observe the actual
 vs normal fitted PDF.
 
-[Click here for full report.](/public/assets/files/20150325_trejo_devin_ca8.pdf)
+[Click here for full report.](/assets/files/20150325_trejo_devin_ca8.pdf)

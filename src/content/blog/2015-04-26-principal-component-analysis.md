@@ -48,4 +48,4 @@ column which correspond to a city’s recreation. If we remove the two rating
 criteria with the largest Eigen values we will observe how much weight they
 have on the variance of the ratings data set (climate, housing, health).
 
-[Click here for full report.](/public/assets/files/20150426_trejo_devin_ca12.pdf)
+[Click here for full report.](/assets/files/20150426_trejo_devin_ca12.pdf)

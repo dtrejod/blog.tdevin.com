@@ -62,4 +62,4 @@ the shift will cause theenough shift so that there is similar sine wave
 composition between the two compared sample ranges. Take for example when
 `k = 100`.
 
-[Click here for full report.](/public/assets/files/20150224_trejo_devin_ca5.pdf)
+[Click here for full report.](/assets/files/20150224_trejo_devin_ca5.pdf)

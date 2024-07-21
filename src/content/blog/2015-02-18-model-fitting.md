@@ -47,4 +47,4 @@ mean making the correlation between the two high. In our analysis we
 compared the histogram to normal distribution fit to find a mean squared
 error between the two.
 
-[Click here for full report.](/public/assets/files/20150218_trejo_devin_ca4.pdf)
+[Click here for full report.](/assets/files/20150218_trejo_devin_ca4.pdf)

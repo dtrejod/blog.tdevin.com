@@ -22,4 +22,4 @@ find trends in the spacing of fundamental frequency content for human speakers
 using a windowed approach. A classifier is implemented based on trends
 discovered from a small set of audio files.
 
-[Click here for full report.](/public/assets/files/20151218_trejo_devin_002.pdf)
+[Click here for full report.](/assets/files/20151218_trejo_devin_002.pdf)

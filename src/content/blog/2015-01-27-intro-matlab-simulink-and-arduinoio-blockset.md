@@ -56,4 +56,4 @@ software was functioning, we expected voltage readings between 0 and 1024. This
 is because the Arduino has a 10-bit analog to digital converter (ADC). Once
 this was debugged we began the next part of the experiment.
 
-[Click here for full report.](/public/assets/files/20150127_trejo_devin_lab01.pdf)
+[Click here for full report.](/assets/files/20150127_trejo_devin_lab01.pdf)

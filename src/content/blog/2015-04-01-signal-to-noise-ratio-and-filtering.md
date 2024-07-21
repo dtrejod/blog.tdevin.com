@@ -60,4 +60,4 @@ can find the power of the noise. Then we can feed it into our normal number
 generator to create a noise signal. We create a table of the power in the
 entire signal given different SNR.
 
-[Click here for full report.](/public/assets/files/20150401_trejo_devin_ca9.pdf)
+[Click here for full report.](/assets/files/20150401_trejo_devin_ca9.pdf)

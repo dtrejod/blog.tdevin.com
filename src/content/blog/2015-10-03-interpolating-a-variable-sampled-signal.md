@@ -25,4 +25,4 @@ sample values from the surrounding samples resulting in a constantly sampled
 signal. From an interpolated version of the signal we can once again find the
 DFT of the original signal.
 
-[Click here for full report.](/public/assets/files/20151003_trejo_devin_001.pdf)
+[Click here for full report.](/assets/files/20151003_trejo_devin_001.pdf)

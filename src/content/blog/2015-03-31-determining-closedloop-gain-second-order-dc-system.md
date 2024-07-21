@@ -48,4 +48,4 @@ this was completed, we repeated the process for a third order transfer function
 of the same filtered data. We redid all calculations, and analyzed an overshoot
 of 150%, and what happens when the proportionality constant grows too large.
 
-[Click here for full report.](/public/assets/files/20150331_trejo_devin_lab07.pdf)
+[Click here for full report.](/assets/files/20150331_trejo_devin_lab07.pdf)
