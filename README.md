@@ -1,6 +1,6 @@
 # blog.tdevin.com
 
-Source for blog.tdevin.com
+Source for https://blog.tdevin.com
 
 ## Running Locally
 
