@@ -1,0 +1,27 @@
+---
+title: Gender Recognition using Power Spectral Density
+slug: gender-recognition-using-power-spectral-density
+featured: false
+draft: false
+tags:
+  - signal
+  - power spectral density
+  - discrete fourier transform
+  - fourier transform
+  - statistics
+  - software
+  - matlab
+  - programming
+description: ECE 4522 - Digital Signal Processing
+pubDatetime: 2015-12-18T00:00:00
+---
+
+# Abstract
+Speech recognition software regarding gender identification usually revolves
+around finding the fundamental frequency of the signal. In this approach, we
+find trends in the spacing of fundamental frequency content for human speakers
+using a windowed approach. A classifier is implemented based on trends
+discovered from a small set of audio files.
+
+[Click here for full report.](
+http://files.tdevin.com/blog/20151218_trejo_devin_002.pdf)
