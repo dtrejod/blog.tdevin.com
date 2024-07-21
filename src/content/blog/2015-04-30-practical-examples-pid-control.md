@@ -35,4 +35,4 @@ current speed of our motor. The two in combination we be feed back into our DC
 motor controller. Our accelerometer will be able to determine if our motor is
 accelerating uncontrollably.
 
-[Click here for full report.](/public/assets/files/20150430_trejo_devin_lab10.pdf)
+[Click here for full report.](/assets/files/20150430_trejo_devin_lab10.pdf)

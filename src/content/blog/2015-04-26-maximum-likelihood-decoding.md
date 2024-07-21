@@ -57,4 +57,4 @@ data. For our second class our mean differs slightly. The error can be produced
 in our data creation process. We still see that even though we our mean is off
 by 23% our classification error rate is low for this case.
 
-[Click here for full report.](/public/assets/files/20150426_trejo_devin_ca13.pdf)
+[Click here for full report.](/assets/files/20150426_trejo_devin_ca13.pdf)

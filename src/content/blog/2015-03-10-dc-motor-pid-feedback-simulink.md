@@ -58,4 +58,4 @@ To begin we will test the effect of the P term by changing P and keeping I and
 D set to 0. There are four cases to test 𝑃 = 1, 10, 100, 1000. To maximize the
 time we have available to us in lab, we will
 
-[Click here for full report.](/public/assets/files/20150310_trejo_devin_lab05.pdf)
+[Click here for full report.](/assets/files/20150310_trejo_devin_lab05.pdf)

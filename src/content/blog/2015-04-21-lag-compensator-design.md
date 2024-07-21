@@ -46,4 +46,4 @@ For each lead compensator case we plot the root locus and the corresponding
 transient response. We compare each compensator to determine which produces
 the best response.
 
-[Click here for full report.](/public/assets/files/20150421_trejo_devin_lab09.pdf)
+[Click here for full report.](/assets/files/20150421_trejo_devin_lab09.pdf)

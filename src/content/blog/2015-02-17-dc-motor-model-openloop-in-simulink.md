@@ -33,4 +33,4 @@ To begin designing a control for this system, we must determine the current, I,
 and , and model `𝑑𝜃/𝑑𝑡` the integrals of the rotational acceleration and of the
 rate of change of the armature current.
 
-[Click here for full report.](/public/assets/files/20150217_trejo_devin_lab03.pdf)
+[Click here for full report.](/assets/files/20150217_trejo_devin_lab03.pdf)

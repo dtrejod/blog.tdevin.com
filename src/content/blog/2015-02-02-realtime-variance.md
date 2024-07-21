@@ -71,4 +71,4 @@ Google’s stock is steady in price. Once we have the entire signal in our
 sample space [N = length (speech_signal)] we see our variance reach the
 true variance of the signal.
 
-[Click here for full report.](/public/assets/files/20150202_trejo_devin_ca3.pdf)
+[Click here for full report.](/assets/files/20150202_trejo_devin_ca3.pdf)

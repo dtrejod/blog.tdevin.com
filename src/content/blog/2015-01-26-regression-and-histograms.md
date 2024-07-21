@@ -54,4 +54,4 @@ events that can drastically change the overall trend. You can have a
 prediction model that can take into account various parameters but no one
 model is perfect.
 
-[Click here for full report.](/public/assets/files/20150126_trejo_devin_ca2.pdf)
+[Click here for full report.](/assets/files/20150126_trejo_devin_ca2.pdf)

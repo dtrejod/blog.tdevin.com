@@ -57,4 +57,4 @@ capacitance and resistors to change our P, I and D gains.
 The lab focuses on coming up with an understanding of how this analog circuit
 compares to the digital equivalent we made in previous labs.
 
-[Click here for full report.](/public/assets/files/20150414_trejo_devin_lab08.pdf)
+[Click here for full report.](/assets/files/20150414_trejo_devin_lab08.pdf)

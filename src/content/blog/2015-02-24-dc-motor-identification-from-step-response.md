@@ -43,4 +43,4 @@ function can be found by hand using an estimate of the DC gain (or steady state
 value `𝐻(0))`, and the time constant `(𝜏)`. From these two values we can find
 the first order transfer function:
 
-[Click here for full report.](/public/assets/files/20150224_trejo_devin_lab04.pdf)
+[Click here for full report.](/assets/files/20150224_trejo_devin_lab04.pdf)

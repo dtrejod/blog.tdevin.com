@@ -53,4 +53,4 @@ and the I gain to 0. We adjusted the P and I gains in attempting to get the
 best possible output. The results are shown in the Results section of the
 report.
 
-[Click here for full report.](/public/assets/files/20150324_trejo_devin_lab06.pdf)
+[Click here for full report.](/assets/files/20150324_trejo_devin_lab06.pdf)
