@@ -89,7 +89,7 @@ at least 10TB++) since every node has local access to the data. Hadoop
 uses Hadoop Distributed File-System
 ([HDFS](https://en.wikipedia.org/wiki/Apache_Hadoop#HDFS)) that stores
 copies of a database across numerous nodes. 'Rjurney' from
-stack overflow.com further explains the difference:
+[stackoverflow.com](https://stackoverflow.com) further explains the difference:
 
 > "MPI is Message Passing Interface. Right there in the name - there is no
 > data locality. You send the data to another node for it to be computed on.
@@ -111,7 +111,7 @@ stack overflow.com further explains the difference:
 > hardware: disk capacity exploding (and data with it), disk speed stagnant,
 > networks slow, processor gigahertz peaked, multi-core taking over Moore's
 > law."
-> [Source](http://stack overflow.com/questions/4590674/why-isnt-hadoop-implemented-using-mpi)
+> [Source](http://stackoverflow.com/questions/4590674/why-isnt-hadoop-implemented-using-mpi)
 
 ## Hadoop
 
@@ -519,8 +519,8 @@ utilization is desired.
 ![Network Tx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nfs-networktx.png "Network Tx - NFS (OwlsNest)")
 
 There is no way to see the actual disk bandwidth usage. Also the data is
-stored on OwlsNest NFS server OwlsNest3.nfs. Instead I will look at the
-network usage of the OwlsNest3.nfs.
+stored on OwlsNest NFS server `owlsnest3.nfs`. Instead I will look at the
+network usage of the `owlsnest3.nfs`.
 
 The network usage is low especially for 1GbE connections throughout the
 cluster.
@@ -547,8 +547,8 @@ our findings nicely:
 |       Resource       | Intel Xeon E5506 (4C) @ 2.133 GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8 GHz and 12GB RAM (OwlsNest ) |
 | :------------------: | :---------------------------------------------------------------: | :------------------------------------------------------: |
 |   Files Processed    |                       777 Files Successful                        |                  1000 Files Successful                   |
-|       JobName        |                             gen_feats                             |                        gen_feats                         |
-|      Exec host       |                      n001.NEDC cluster.com/0                      |                          w066/0                          |
+|       JobName        |                            `gen_feats`                            |                       `gen_feats`                        |
+|      Exec host       |                     `n001.nedccluster.com/0`                      |                          w066/0                          |
 |     Exit Status      |                                 0                                 |                            0                             |
 |       CPU Time       |                             07:45:52                              |                         05:14:17                         |
 |     Memory Usage     |                             3459788kb                             |                        3453572kb                         |
@@ -628,19 +628,19 @@ data security.
 The final configuration reached us on August 20, 2015. Below are some
 glamor shots.
 
-![Main-node (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-NEDC-000-front.jpg "Main-node (NeuroNix)")
+![Main-node (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-nedc-000-front.jpg "Main-node (NeuroNix)")
 
-![TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-webserver-NEDC-002-5-front.jpg "TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)")
+![TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-webserver-nedc-002-5-front.jpg "TOP: Compute Nodes BOTTOM: Webserver (NeuroNix)")
 
-![Redundant PSUs (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-NEDC-002-5-inside-psu.jpg "Redundant PSUs (NeuroNix)")
+![Redundant PSUs (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-nedc-002-5-inside-psu.jpg "Redundant PSUs (NeuroNix)")
 
-![Compute Nodes (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-NEDC-002-5-top.jpg "Compute Nodes (NeuroNix)")
+![Compute Nodes (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-nedc-002-5-top.jpg "Compute Nodes (NeuroNix)")
 
 By running the same tests we ran before, we can see how NeuroNix performs
 compared to OwlsNest and our now retired NEDC test cluster. The job
 starts as soon as I submit since our group has exclusive access to the
-cluster. The node that takes on the job is `NEDC_005`
-(compute node `hostnames=NEDC_00[2-5]`). On our cluster, multiple jobs can
+cluster. The node that takes on the job is `nedc_005`
+(compute node `hostnames=nedc_00[2-5]`). On our cluster, multiple jobs can
 run on the same node but when I started the benchmark when no other jobs
 were running.
 
@@ -678,7 +678,7 @@ We never dropped below the 236MB of free memory on our node.
 
 For the duration of our job we see average network usage hover around
 1MB/sec for receiving and 0.5MB/sec for sending. The 1Gb interconnect
-between `NEDC_005` and `NEDC_000` (mainnode) is able to reach speeds of
+between `nedc_005` and `nedc_000` (mainnode) is able to reach speeds of
 128MB/sec. Thus we see no bottleneck in our network for this job.
 
 ![Network Rx (NeuroNix)](@assets/images/hpc-batch-processing/neuronix-networkrx.png "Network Rx (NeuroNix)")
@@ -696,8 +696,8 @@ Xeon CPU is running at 2.8GHz compared to our AMD Opteron running at
 |       Resource       | (2x) AMD Opteron 6378 (16C) @ 2.4GHz and 256GB RAM (NeuroNix) | Intel Xeon E5506 (4C) @ 2.133GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8GHz and 12GB RAM. (OwlsNest) |
 | :------------------: | :-----------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------: |
 |   Files Processed    |                     1000 Files Successful                     |                       777 Files Successful                       |                  1000 Files Successful                  |
-|       JobName        |                           gen_feats                           |                            gen_feats                             |                        gen_feats                        |
-|      Exec host       |                          NEDC_005/0                           |                     n001.NEDC cluster.com/0                      |                         w066/0                          |
+|       JobName        |                          `gen_feats`                          |                           `gen_feats`                            |                       `gen_feats`                       |
+|      Exec host       |                         `nedc_005/0`                          |                      n001.nedccluster.com/0                      |                         w066/0                          |
 |     Exit_status      |                               0                               |                                0                                 |                            0                            |
 |       CPU Time       |                           08:07:23                            |                             07:45:52                             |                        05:14:17                         |
 |     Memory Usage     |                           3463740kb                           |                            3459788kb                             |                        3453572kb                        |
@@ -717,9 +717,9 @@ important here is that we have exclusive access to resources and
 management of the system without being tied down to university constraints.
 In our final cluster we have 128 usable cores and 1TB of DDR3 RAM that are
 optimized for the experiments we run. The entire cluster is managed by a
-central node which we call `NEDC_000`, that serves as a job distribution
+central node which we call `nedc_000`, that serves as a job distribution
 manager as well as a centralized NFS system. The four compute nodes are
-served a 'golden image' version of an OS which we mange from `NEDC_000`. The
+served a 'golden image' version of an OS which we mange from `nedc_000`. The
 'golden image' is fetched upon boot of any of the compute nodes using
 [Warewulf](http://warewulf.lbl.gov/trac). Since our main node is a high
 priority system we ensure it was also adequately equipped to handle heavily
