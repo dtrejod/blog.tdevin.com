@@ -128,7 +128,7 @@ and two Dell OptiPlex 755) but we figured the PCs were adequate to setup
 a test HPC setup. From here on out these set of computers will be referred
 to as the 'NEDC Test Cluster'. A picture of the machines is seen below:
 
-![NEDC Test Cluster](@assets/images/hpc-batch-processing/NEDC-test-cluster.png "NEDC Test Cluster")
+![NEDC Test Cluster](@assets/images/hpc-batch-processing/nedc-test-cluster.png "NEDC Test Cluster")
 
 In my research I start where any student would: Google Search. From Google
 search I found a countless number of articles claiming to be the one
@@ -402,7 +402,7 @@ to see how performance differs.
 The purpose of this test is to see if their are hardware limitations
 (such as disk/network bandwidth) we should note before buying our hardware.
 
-![Torque Job Listing (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-joblisting.png "[Torque Job Listing (NEDC Test Cluster)")
+![Torque Job Listing (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-joblisting.png "[Torque Job Listing (NEDC Test Cluster)")
 
 # Results
 
@@ -415,7 +415,7 @@ cluster.
 As expected the job is fully loading our four compute nodes. By default
 the tool allows us to see the usage of the cluster is the past hour:
 
-![Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-ganglia-genfeats.png "Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)")
+![Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-ganglia-genfeats.png "Ganglia While Running `gen_feats.sh` (NEDC Test Cluster)")
 
 Great, the cluster works! What we are really interested though is to see
 the hardware usage as we run the job. First we can observe the usage of
@@ -424,7 +424,7 @@ of time.
 
 ### CPU
 
-![CPU Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-cpuidle.png "CPU Usage (NEDC Test Cluster)")
+![CPU Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-cpuidle.png "CPU Usage (NEDC Test Cluster)")
 
 In the plot above note there are instances however where our nodes are
 idle for a brief period of time. What is the cause of the drop in
@@ -433,13 +433,13 @@ utilization? Let us look at other resource usages over the time period
 
 ### Memory
 
-![Memory Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-memtotal.png "Memory Usage (NEDC Test Cluster)")
+![Memory Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-memtotal.png "Memory Usage (NEDC Test Cluster)")
 
-![Memory Free (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-memfree.png "Memory Free (NEDC Test Cluster)")
+![Memory Free (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-memfree.png "Memory Free (NEDC Test Cluster)")
 
-![Memory Cache (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-memcache.png "Memory Cache (NEDC Test Cluster)")
+![Memory Cache (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-memcache.png "Memory Cache (NEDC Test Cluster)")
 
-![Swap Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-memswap.png "Swap Usage (NEDC Test Cluster)")
+![Swap Usage (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-memswap.png "Swap Usage (NEDC Test Cluster)")
 
 In these graphs we can see that on average the main node has no free
 memory (An oversight that only is 3GB installed). The limited amount of
@@ -456,13 +456,13 @@ We are also curious if the disk /network hosting the data on the mn
 read/write operations as well as the network traffic over the same
 period time.
 
-![SDC Read (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-sdcread.png "SDC Read (NEDC Test Cluster)")
+![SDC Read (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-sdcread.png "SDC Read (NEDC Test Cluster)")
 
-![SDC Write (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-sdcwrite.png "SDC Write (NEDC Test Cluster)")
+![SDC Write (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-sdcwrite.png "SDC Write (NEDC Test Cluster)")
 
-![Network Rx (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-networkrx.png "Network Rx (NEDC Test Cluster)")
+![Network Rx (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-networkrx.png "Network Rx (NEDC Test Cluster)")
 
-![Network Tx (NEDC Test Cluster)](@assets/images/hpc-batch-processing/NEDC-test-cluster-networktx.png "Network Tx (NEDC Test Cluster)")
+![Network Tx (NEDC Test Cluster)](@assets/images/hpc-batch-processing/nedc-test-cluster-networktx.png "Network Tx (NEDC Test Cluster)")
 
 As can be seen (although it is slightly cut off), the max read speed from
 the disk was recorded at 8.X MB/s and the max write speed was 13.X MB/s.
