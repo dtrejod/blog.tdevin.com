@@ -495,7 +495,7 @@ resources.
 
 ### Node Specs
 
-![Node Specs (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nodespecs "Node Specs (OwlsNest)")
+![Node Specs (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nodespecs.png "Node Specs (OwlsNest)")
 
 ### CPU
 
