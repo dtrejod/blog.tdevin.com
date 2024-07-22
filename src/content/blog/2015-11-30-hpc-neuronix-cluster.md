@@ -495,28 +495,28 @@ resources.
 
 ### Node Specs
 
-![Node Specs (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-nodespecs.png "Node Specs (OwlsNest)")
+![Node Specs (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nodespecs "Node Specs (OwlsNest)")
 
 ### CPU
 
-![CPU Usage(OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-cpuidle.png "CPU Usage(OwlsNest)")
+![CPU Usage(OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-cpuidle.png "CPU Usage(OwlsNest)")
 
 Note how the CPU is fully loading the one CPU core (100/12=8.3%). 100% CPU
 utilization is desired.
 
 ### Memory
 
-![Memory Free (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-memfree.png "Memory Free (OwlsNest)")
+![Memory Free (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-memfree.png "Memory Free (OwlsNest)")
 
-![Memory Usage (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-memcache.png "Memory Usage (OwlsNest)")
+![Memory Usage (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-memcache.png "Memory Usage (OwlsNest)")
 
-![Swap Usage (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-swap.png "Swap Usage (OwlsNest)")
+![Swap Usage (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-swap.png "Swap Usage (OwlsNest)")
 
 ### Disk
 
-![Network Rx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-nfs-networkrx.png "Network Rx - NFS (OwlsNest)")
+![Network Rx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nfs-networkrx.png "Network Rx - NFS (OwlsNest)")
 
-![Network Tx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-nfs-networktx.png "Network Tx - NFS (OwlsNest)")
+![Network Tx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nfs-networktx.png "Network Tx - NFS (OwlsNest)")
 
 There is no way to see the actual disk bandwidth usage. Also the data is
 stored on OwlsNest NFS server OwlsNest3.nfs. Instead I will look at the
@@ -527,9 +527,9 @@ cluster.
 
 ### Network
 
-![Network Rx (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-networkrx.png "Network Rx (OwlsNest)")
+![Network Rx (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-networkrx.png "Network Rx (OwlsNest)")
 
-![Network Tx (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-networktx.png "Network Tx (OwlsNest)")
+![Network Tx (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-networktx.png "Network Tx (OwlsNest)")
 
 The file server appears to be able to keep up with the data draw from the
 job. The job is only reading in data at a rate of 2MB/s and out at a rate
@@ -754,7 +754,7 @@ we saw a runtime of ~5Hrs. However there is potential that a user may be
 waiting in the queue for hours. On our final cluster, which we name
 NeuroNix, we saw a run time of 8Hrs but with a guarantee of no queue. The
 expected limiting component on our new cluster is CPU speed. Note that for
-other jobs NeuroNix will perform similar or even faster than Owlsnest
+other jobs NeuroNix will perform similar or even faster than OwlsNest
 especially is large amounts of memory is needed. The 128 available cores
 is also important since we can run multiple jobs in parallel. Allowing for
 a larger number of jobs allows more users access to the cluster
