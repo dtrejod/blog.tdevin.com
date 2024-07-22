@@ -1,0 +1,32 @@
+---
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+version: '0.2'
+dictionaryDefinitions:
+  - name: project-words
+    path: './project-words.txt'
+    addWords: false
+dictionaries:
+  - project-words
+ignorePaths:
+  - 'node_modules'
+  - '/project-words.txt'
+languageSettings:
+  - languageId: markdown
+    ignoreRegExpList:
+      - markdown_code_block
+      - proper_nouns
+      - markdown_inline_code
+      - markdown_links
+      - acronym
+
+patterns:
+  - name: markdown_code_block
+    pattern: /`{3}[\s\S]*?`{3}(?=\n|$)/gi
+  - name: markdown_inline_code
+    pattern: /`[^`]*`/gi
+  - name: proper_nouns
+    pattern: /(?<=\s|^|[^\w\s])(?=[A-Z])[\w']+(?=\s|$|[^\w\s])/g
+  - name: acronym
+    pattern: /\b([A-Z]|[0-9])+\b/g
+  - name: markdown_links
+    pattern: /(?:__|[*#])|\[(.*?)\]\(.*?\)/gm

@@ -58,7 +58,7 @@ with shift k starting at 0 and range up to 512.
 First characteristics to notice about the correlation is how it appears
 periodically shift between positive correlation to negative. Given that
 the composition signal is a sum of sine waves we see that at some point
-the shift will cause theenough shift so that there is similar sine wave
+the shift will cause enough shift so that there is similar sine wave
 composition between the two compared sample ranges. Take for example when
 `k = 100`.
 
