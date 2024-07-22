@@ -8,3 +8,5 @@ digipeating
 mainnode
 bottlenecked
 prioritizer
+astro
+tdevin.com
