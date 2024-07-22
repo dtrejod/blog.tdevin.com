@@ -8,7 +8,7 @@ tags:
   - programming-bash
   - hardware
   - infrastructure
-  - obsevability
+  - observability
   - networking
   - linux
 description: The NeuroNix Super Computer
@@ -89,7 +89,7 @@ at least 10TB++) since every node has local access to the data. Hadoop
 uses Hadoop Distributed File-System
 ([HDFS](https://en.wikipedia.org/wiki/Apache_Hadoop#HDFS)) that stores
 copies of a database across numerous nodes. 'Rjurney' from
-stackoverflow.com further explains the difference:
+[stackoverflow.com](https://stackoverflow.com) further explains the difference:
 
 > "MPI is Message Passing Interface. Right there in the name - there is no
 > data locality. You send the data to another node for it to be computed on.
@@ -302,7 +302,7 @@ Adam DeConinck mentions in his blog the use of LMOD to handle environmental
 variables. At this moment our research group handles user environments by
 having them download a configuration file from the internet and installing
 a common environment ([ISIP environment](http://www.isip.piconepress.com/)).
-I therefore did NOT installed the LMOD nor easybuild tools.
+I therefore did NOT installed the `lmod` nor `easybuild` tools.
 
 ### Job Scheduler
 
@@ -329,7 +329,7 @@ intelligent scheduler such as Maui/Moab:
 Maui allows you set priority users by allocating weight scales, max job
 runtimes, CPU resource limits, ect. It is a versatile tool that takes
 hours of configuration to setup correctly. It is still recommended over
-the default 'pbs_sched' Torque ships with.
+the default `pbs_sched` Torque ships with.
 
 ### NFS
 
@@ -346,7 +346,7 @@ or [GlusterFS](http://www.gluster.org/) for our configuration.
 For cluster monitoring I stuck with **Ganglia**. Ganglia provides you with a
 web interface to see your resource usage across your entire cluster. Big
 sites such as [Wikimedia](http://Ganglia.wikimedia.org/latest/), and
-[Temple's own OwlsNest](http://www.hpc.temple.edu/owlsnest/Ganglia/) use
+[Temple's own OwlsNest](http://www.hpc.temple.edu/OwlsNest/Ganglia/) use
 Ganglia to monitor resources.
 
 You will see later in the blog that I use Ganglia to monitor my NEDC test
@@ -483,7 +483,7 @@ It appears that OwlsNest reserves an entire node to process one job, even
 when I specify that the job will only use one core on a node. Reserving
 the entire node is done to ensure a user has access to all node resources
 as specified on the
-[hpc.temple.edu](http://www.hpc.temple.edu/owlsnest/) website. We can see
+[hpc.temple.edu](http://www.hpc.temple.edu/OwlsNest/) website. We can see
 that by the fact `pbs_jobs = 1` in the graph below.
 
 ![Jobs Running (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-pbs-jobs.png "Jobs Running (OwlsNest)")
@@ -519,8 +519,8 @@ utilization is desired.
 ![Network Tx - NFS (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-nfs-networktx.png "Network Tx - NFS (OwlsNest)")
 
 There is no way to see the actual disk bandwidth usage. Also the data is
-stored on OwlsNest NFS server owlsnest3.nfs. Instead I will look at the
-network usage of the owlsnest3.nfs.
+stored on OwlsNest NFS server `owlsnest3.nfs`. Instead I will look at the
+network usage of the `owlsnest3.nfs`.
 
 The network usage is low especially for 1GbE connections throughout the
 cluster.
@@ -547,8 +547,8 @@ our findings nicely:
 |       Resource       | Intel Xeon E5506 (4C) @ 2.133 GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8 GHz and 12GB RAM (OwlsNest ) |
 | :------------------: | :---------------------------------------------------------------: | :------------------------------------------------------: |
 |   Files Processed    |                       777 Files Successful                        |                  1000 Files Successful                   |
-|       JobName        |                             gen_feats                             |                        gen_feats                         |
-|      Exec host       |                      n001.nedccluster.com/0                       |                          w066/0                          |
+|       JobName        |                            `gen_feats`                            |                       `gen_feats`                        |
+|      Exec host       |                     `n001.nedccluster.com/0`                      |                          w066/0                          |
 |     Exit Status      |                                 0                                 |                            0                             |
 |       CPU Time       |                             07:45:52                              |                         05:14:17                         |
 |     Memory Usage     |                             3459788kb                             |                        3453572kb                         |
@@ -696,8 +696,8 @@ Xeon CPU is running at 2.8GHz compared to our AMD Opteron running at
 |       Resource       | (2x) AMD Opteron 6378 (16C) @ 2.4GHz and 256GB RAM (NeuroNix) | Intel Xeon E5506 (4C) @ 2.133GHz and 6GB RAM (NEDC Test Cluster) | Intel Xeon X5660 (6C) @ 2.8GHz and 12GB RAM. (OwlsNest) |
 | :------------------: | :-----------------------------------------------------------: | :--------------------------------------------------------------: | :-----------------------------------------------------: |
 |   Files Processed    |                     1000 Files Successful                     |                       777 Files Successful                       |                  1000 Files Successful                  |
-|       JobName        |                           gen_feats                           |                            gen_feats                             |                        gen_feats                        |
-|      Exec host       |                          nedc_005/0                           |                      n001.nedccluster.com/0                      |                         w066/0                          |
+|       JobName        |                          `gen_feats`                          |                           `gen_feats`                            |                       `gen_feats`                       |
+|      Exec host       |                         `nedc_005/0`                          |                     `n001.nedccluster.com/0`                     |                        `w066/0`                         |
 |     Exit_status      |                               0                               |                                0                                 |                            0                            |
 |       CPU Time       |                           08:07:23                            |                             07:45:52                             |                        05:14:17                         |
 |     Memory Usage     |                           3463740kb                           |                            3459788kb                             |                        3453572kb                        |
@@ -754,7 +754,7 @@ we saw a runtime of ~5Hrs. However there is potential that a user may be
 waiting in the queue for hours. On our final cluster, which we name
 NeuroNix, we saw a run time of 8Hrs but with a guarantee of no queue. The
 expected limiting component on our new cluster is CPU speed. Note that for
-other jobs NeuroNix will perform similar or even faster than Owlsnest
+other jobs NeuroNix will perform similar or even faster than OwlsNest
 especially is large amounts of memory is needed. The 128 available cores
 is also important since we can run multiple jobs in parallel. Allowing for
 a larger number of jobs allows more users access to the cluster

@@ -34,9 +34,9 @@ The third signal is also an impulse signal that repeats every 20 samples. Since
 we have a train of impulses we increase the number of samples to 200 and the
 number of lags to 60. The PSD should be similar to the single impulse.
 
-The fourth signal generated is a sinewave whose periods occurs every 20
+The fourth signal generated is a sine wave whose periods occurs every 20
 samples. The frequency of said sine wave is dependent on the sample frequency.
-Up to know we have used a sample frequency of 8KHz therefore our sinewave has
+Up to know we have used a sample frequency of 8KHz therefore our sine wave has
 as frequency of fs/T=8kHz/20=400Hz. We repeat our analysis of the
 autocorrelation and PSD as explained before. Also for this sine wave case we
 analyze the behavior if we were to change the number of samples between 14, 17,

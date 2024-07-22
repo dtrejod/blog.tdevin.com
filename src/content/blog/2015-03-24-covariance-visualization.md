@@ -16,7 +16,7 @@ pubDatetime: 2015-03-24 00:00:00
 
 # Problem
 
-Today we introduce multivariable sample spaces. We will learn more about
+Today we introduce multi-variable sample spaces. We will learn more about
 covariance or how closely two sets of data are correlated. Using MatLab
 we will be able to construct some random sets of data and observe the
 covariance. Specifically we will utilize MatLab’s 3D visualization tool

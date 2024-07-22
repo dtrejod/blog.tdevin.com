@@ -21,7 +21,7 @@ For the next lab we experiment working with DC motors. In the previous lab we
 worked with stepper motors, which operate by supplying power to one of serval
 magnets surrounding the rotor. The difference provided by the electromagnet
 causes the rotor to spin in a very precise increments. The DC motor works in
-similar fashion except with the magnet is permeant (armature) and while the
+similar fashion except with the magnet is permanent (armature) and while the
 commutator provide a field difference. Due to the rather simple construction of
 the DC motor we can construct a model for the DC motor using an equivalent
 circuit consisting of a resistor, inductor, and dynamo. By the end of the lab
