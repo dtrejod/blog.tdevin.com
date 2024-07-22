@@ -486,7 +486,7 @@ as specified on the
 [hpc.temple.edu](http://www.hpc.temple.edu/OwlsNest/) website. We can see
 that by the fact `pbs_jobs = 1` in the graph below.
 
-![Jobs Running (OwlsNest)](@assets/images/hpc-batch-processing/OwlsNest-pbs-jobs.png "Jobs Running (OwlsNest)")
+![Jobs Running (OwlsNest)](@assets/images/hpc-batch-processing/owlsnest-pbs-jobs.png "Jobs Running (OwlsNest)")
 
 The fact it only processes one job per node is actually beneficial for our
 test as it allows us to see the entire usage of the job on higher end
