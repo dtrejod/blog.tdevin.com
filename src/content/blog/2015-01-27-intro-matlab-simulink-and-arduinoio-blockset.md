@@ -1,6 +1,6 @@
 ---
-title: Introduction to MATLAB Simulink and the ArduinoIO block-set
-slug: introduction-to-matlab-simulink-and-the-arduinoio-block-set
+title: Introduction to MATLAB Simulink and the Arduino IO block-set
+slug: introduction-to-matlab-simulink-and-the-arduino-io-block-set
 featured: false
 draft: false
 tags:
@@ -47,7 +47,7 @@ known we can execute the command `𝑎 = 𝑎𝑟𝑑𝑢𝑖𝑛𝑜(’/𝑑�
 communication.
 
 Now that we have communication between MatLab and the board, we begin some
-tests. 𝑎𝑛𝑎𝑙𝑜𝑔𝑅𝑒𝑎𝑑 is a command that reads in data. The first test we perform
+tests. `𝑎𝑛𝑎𝑙𝑜𝑔𝑅𝑒𝑎𝑑` is a command that reads in data. The first test we perform
 is reading in an analog voltage signal applied to a specific pin. By varying
 the resistance using the potentiometer, we ensured that the circuit was set up
 properly and that the Arduino and MatLab were communicating as we expected. If

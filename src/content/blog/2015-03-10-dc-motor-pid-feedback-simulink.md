@@ -37,7 +37,7 @@ controller will face. The response we observe in the time domain is termed the
 transient response. There are four possible outcomes:
 
 - Over-damped – There is lots of damping causing the system to gradually reach
-  steadystate.
+  steady state.
 - Critically Damped – There is enough damping to just stop the transient so
   there is no transient.
 - Underdamped – The circuit has oscillation however there is damping that

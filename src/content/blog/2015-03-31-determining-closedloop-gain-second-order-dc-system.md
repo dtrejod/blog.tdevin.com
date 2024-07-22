@@ -2,7 +2,7 @@
 title:
   Analytic Approach To Determining Closedloop Gain For A Second Order DC Motor
   System
-slug: analytic-approach-to-determining-closedloop-gain-for-a-second-order-dc-motor-system
+slug: analytic-approach-to-determining-closed-loop-gain-for-a-second-order-dc-motor-system
 featured: false
 draft: false
 tags:
@@ -15,7 +15,7 @@ description: ECE 3412 - Classic Control Systems
 pubDatetime: 2015-03-31 00:00:00
 ---
 
-![Analytic Approach To Determining Closedloop Gain](@assets/images/3412_controls/determining_closedloop_gain_second_order_dc_system.png)
+![Analytic Approach To Determining Closedloop Gain](@assets/images/3412_controls/determining_closed-loop_gain_second_order_dc_system.png)
 
 # Problem
 

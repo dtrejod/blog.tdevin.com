@@ -69,7 +69,7 @@ For the reasons described above, the system will consist of a Raspberry Pi
 model 2, and a Linksys WRT54G wireless router. The routers will be
 programmed, (flashed) with a custom firmware known as Broadband Hamnet. The
 Broadband Hamnet firmware takes care of configuring the mesh network, which
-includes an optimized link state routing (OLSR) protocol, digi-peating,
+includes an optimized link state routing (OLSR) protocol, digipeating,
 and discovering new nodes (new routers that come one the air). The firmware
 does not account for devices connected to LAN network of the nodes. Because
 of this, communication cannot be made between two users of the network.

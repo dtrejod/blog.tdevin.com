@@ -79,8 +79,8 @@ whose column “contents” does not contain the “specialWord” argument used
 when the function is called. The second argument in our function “drop”
 will specify whether we drop the rows whose contents do not contain the
 “specialWord”. If drop is false we simply only report the number of rows
-contain the word asked for in the “speicalWord” argument. In our case we
-will look for a “speicalWord” whose value equals “spike” and drop = “True”.
+contain the word asked for in the “specialWord” argument. In our case we
+will look for a “specialWord” whose value equals “spike” and drop = “True”.
 
 The third function we use is `createHistogram` which will create a
 histogram of all words in the data column “contents” over a span of a

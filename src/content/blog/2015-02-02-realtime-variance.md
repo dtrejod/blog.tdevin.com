@@ -63,7 +63,7 @@ For example, for the first ~100 days our variance is rather low since our
 variance and mean both increase. At around day 400 Google’s stock
 increases rather quickly which corresponds to stark increase in variance.
 As we incorporate more data into our sample space our values start varying
-more from the mean. We also should note where the magneta line is pretty
+more from the mean. We also should note where the magenta line is pretty
 steady. This no change in variance portion of the plot indicates that
 Google’s stock price did not change much during this time. Referencing
 Figure 1 for this range (day 1500 -> 2000) we observed that indeed
